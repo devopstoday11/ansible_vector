@@ -1,0 +1,8 @@
+---
+
+###
+# RedHat
+###
+
+# RPM package URL
+vector_package_name: "https://packages.timber.io/vector/{{ vector_version }}/vector-x86_64.rpm"

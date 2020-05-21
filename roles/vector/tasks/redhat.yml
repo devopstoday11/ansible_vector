@@ -1,0 +1,7 @@
+---
+
+- name: VECTOR REDHAT | Download and install rpm package
+  yum:
+    name: "{{ vector_package_name }}"
+    state: present
+  notify: Restart vector
